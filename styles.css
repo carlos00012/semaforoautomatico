@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    background-color: rgb(209, 157, 114);
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.semaforo,.semaforo2{
+    background-color: black;
+    width: 30px;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.callec{
+    background-color: rgb(60, 60, 60);
+    width: 50px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.callev{
+    background-color: rgb(60, 60, 60);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lineav{
+    background-color: white;
+    width: 8%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    
+    
+}
+.lineah{
+    background-color: white;
+    width: 30px;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    
+    
+}
+
+.foco,.foco2{
+    background-color: rgb(98, 98, 98);
+    height: 25px;
+    width: 25px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+.foco.rojo.active{
+    background-color: red;
+}
+.foco.amarillo.active{
+    background-color: yellow;
+}
+.foco.verde.active{
+    background-color: green;
+}
+
+.foco2.rojo.active{
+    background-color: red;
+}
+.foco2.amarillo.active{
+    background-color: yellow;
+}
+.foco2.verde.active{
+    background-color: green;
+}
